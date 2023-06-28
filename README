@@ -118,7 +118,7 @@ To be supplemented
 ```bash
 python cmca.py rs aa2ar.sdf abl1.sdf   # molecular name is aa2ar and abl1
 ```library
-impoty puaC
+import puaC
 ...
 mols=puaC.MolSupplier("test1.sdf","test2.sdf")
 ...
