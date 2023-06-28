@@ -115,10 +115,15 @@ The block size should be kept small to avoid out of memory problems (around 256 
 ### Example Usage
 To be supplemented
 
-- To decompress paired-end compressed archive
 ```bash
 python cmca.py rs aa2ar.sdf abl1.sdf   # molecular name is aa2ar and abl1
-```
+```library
+impoty puaC
+...
+mols=puaC.MolSupplier("test1.sdf","test2.sdf")
+...
+print(mols.Compare)
+
 
 ### Part of Sample data
 1.0:euclidean:0.795816955|cosine:0.653559209|correlation:0.938822278
